@@ -17,24 +17,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-        }
-
-        
-        .container {
-            background-color: rgb(49, 151, 138);
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-            width: 100%;
-            max-width: 400px; 
-            border-color: #333;
-        }
-
-        h1 {
-            text-align: center;
-            color: #181818;
-            margin-bottom: 1.5rem;
-            font-size: 24px;
+            font-size: 25px;
         }
 
         
@@ -60,12 +43,27 @@
             transition: border-color 0.3s;
         }
 
-        input:focus {
-            border-color: #007bff;
-            outline: none;
+        button{
+    background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+            width: 65%;
+            margin-top: 5px;
+}
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
         }
 
-        
+
         button[type="submit"] {
             background-color: #007bff;
             color: white;
@@ -123,12 +121,5 @@
             transition: all 0.3s ease;
         }
 
-        
-        .btn-delete:hover {
-            background-color: #bd9090 !important;
-            color: #8b0500 !important;
-            border-color: #d9534f !important;
-            transform: scale(1.05);
-            transition: all 0.3s ease;
-        }
+    
     </style>
