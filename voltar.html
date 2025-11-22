@@ -1,3 +1,134 @@
 <div style="text-align: center">
     <a href="forms.html"><button>Voltar</button></a>
 </div>
+<style>
+       
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        
+        body {
+            background-color: #adadad;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        
+        .container {
+            background-color: rgb(49, 151, 138);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px; 
+            border-color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #181818;
+            margin-bottom: 1.5rem;
+            font-size: 24px;
+        }
+
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            color: #272727;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: left; 
+        }
+
+        input {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        
+        button[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        
+        .actions {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        
+        .actions a {
+            flex: 1;
+            text-decoration: none;
+        }
+
+        
+        .actions button {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            color: #555;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .actions button:hover {
+            background-color: #a1aebb;
+            color: #333;
+            border-color: #000000;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        
+        .btn-delete:hover {
+            background-color: #bd9090 !important;
+            color: #8b0500 !important;
+            border-color: #d9534f !important;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+    </style>
